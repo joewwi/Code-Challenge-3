@@ -13,7 +13,8 @@ document.addEventListener("DOMContentLoaded", () =>{
                 <img src="${film.poster}" class="card-img-top" alt="${film.title} ">
                 <div class="card-body">
                     <h5 class="card-title">${film.title}</h5>
-                    <p class="card-text">${film.showtime}</p>
+                    <p class="card-text">Showtime: ${film.showtime}</p>
+                    <p class="card-text">Runtime: ${film.runtime}mins</p>
                     <p id="available-tickets">Available Tickets: ${availabletickets}</p>
                     <button type="submit" id="button">Buy Ticket</button>
                 </div>
